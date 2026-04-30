@@ -9,6 +9,7 @@ type Product struct {
 }
 
 func main() {
+	productNames := [4]string{"apple", "mango", "guava", "litchi"}
 	prices := [4]float64{1.0, 15.45, 16.78, 89.20}
-	fmt.Println(prices)
+	fmt.Println(prices[2], productNames[2])
 }
